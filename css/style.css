@@ -1,8 +1,10 @@
+/* Main Body */
 body {
   height: 100vh;
   font-size: 15px;
   font-family: Helvetica, serif;
   margin: 0;
+  background-color: lavender;
 }
 
 h4 {
@@ -10,6 +12,7 @@ h4 {
     font-size: 1.1em;
 }
 
+/* NAVBAR */
 nav > ul {
   list-style: none;
 
@@ -41,6 +44,8 @@ nav a {
   display: flex;
   justify-content: flex-end;
 }
+
+/* HERO IMAGE */
 header.hero-image {
   background-image: url(/images/Crowd.jpg);
   height: 30%;
@@ -67,6 +72,8 @@ header.hero-image {
     font-size: 1.4em;
     margin-top: 0;
 }
+
+/* IMAGE W/ QUOTE */
 .toastmaster-img {
     width: 100%;   
     height: 35em;
@@ -74,8 +81,7 @@ header.hero-image {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    
+    position: relative;  
 }
 
 #quote {
@@ -89,23 +95,25 @@ header.hero-image {
     font-size: 2rem;
 }
 
+/* CARDS */
 .card-info {
     text-align: center;
     height: 340px;
     margin: 3em;
     border-radius: 30px;
+    margin-bottom: 10em;
 
     display: flex;
     justify-content: space-around;
 }
 
-
 .flip-card-front > img {
     margin-bottom: 1em;
     border-radius: 1em;
 }
-
-
+.card-container > ul{
+    list-style: none;
+}
 .example_e {
     border: none;
     background: #404040;
@@ -127,13 +135,8 @@ header.hero-image {
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.3s ease 0s;
 }
-.quote {
-    p
-}
+
+/* VIDEO LINK W/ COMMENTS */
 #ted-talk {
     padding: 2em 0;
-}
-.p-image {
-    margin-top: 4em;
-
 }
